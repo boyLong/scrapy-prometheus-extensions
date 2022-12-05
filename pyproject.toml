@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "scrapy-prometheus-extensions"
+version = "0.1.0"
+description = "scrapy-prometheus-extensions"
+authors = ["wenlong.gao <g1310669621@gmail.com>"]
+readme = "README.md"
+packages = [{include = "scrapy_prometheus_extensions"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["prometheus-client=0.15.0"]
+build-backend = "poetry.core.masonry.api"
